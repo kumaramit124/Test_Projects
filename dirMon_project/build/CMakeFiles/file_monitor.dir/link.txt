@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/file_monitor.dir/src/main.c.o CMakeFiles/file_monitor.dir/src/create_bkp.c.o -o file_monitor 
