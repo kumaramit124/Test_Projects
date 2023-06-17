@@ -1,0 +1,4 @@
+/home/rdkdev/test/calc_proj/build/CMakeFiles/calculator.dir
+/home/rdkdev/test/calc_proj/build/CMakeFiles/main.dir
+/home/rdkdev/test/calc_proj/build/CMakeFiles/edit_cache.dir
+/home/rdkdev/test/calc_proj/build/CMakeFiles/rebuild_cache.dir

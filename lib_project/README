@@ -1,0 +1,9 @@
+1. Create a new directory for your project and navigate to it.
+
+2. Create the following files in the project directory:
+
+	CMakeLists.txt: This is the CMake configuration file.
+	math_functions.h and math_functions.c: Header and source files containing math-related functions.
+	string_functions.h and string_functions.c: Header and source files containing string-related functions.
+	main.c: Source file containing the main program.
+3. Create the CMakeLists.txt file

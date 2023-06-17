@@ -1,0 +1,3 @@
+/home/rdkdev/test/dirMon_project/build/CMakeFiles/file_monitor.dir
+/home/rdkdev/test/dirMon_project/build/CMakeFiles/edit_cache.dir
+/home/rdkdev/test/dirMon_project/build/CMakeFiles/rebuild_cache.dir

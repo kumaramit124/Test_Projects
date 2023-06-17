@@ -1,0 +1,26 @@
+CC = gcc
+CFLAGS = -Wall -Werror
+
+# Build the math library
+math_functions.o: math_functions.c math_functions.h
+	$(CC) $(CFLAGS) -c math_functions.c
+
+# Build the string library
+string_functions.o: string_functions.c string_functions.h
+	$(CC) $(CFLAGS) -fPIC -c string_functions.c
+
+# Create the static library
+libmath.a: math_functions.o
+	ar rcs libmath.a math_functions.o
+
+# Create the dynamic library
+libstring.so: string_functions.o
+	$(CC) $(CFLAGS) -shared -o libstring.so string_functions.o
+
+# Build the main program and link with the libraries
+myprogram: main.c libmath.a libstring.so
+	$(CC) $(CFLAGS) -L. -o myprogram main.c -lmath -lstring
+
+clean:
+	rm -f *.o *.a *.so myprogram
+
